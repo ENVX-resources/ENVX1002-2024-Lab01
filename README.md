@@ -2,7 +2,7 @@
 
 ## ENVX1002
 
-### Tutorial 01
+### Lab 01
 
 Semester 1, 2024
 
