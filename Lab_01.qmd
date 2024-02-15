@@ -8,28 +8,24 @@ date-format: "[Semester 1,] YYYY"
 
 ## Getting started: Excel and R
 
-<div class="pad-box-mini" style="border: 2px solid grey; padding-left:10px;">
+
+::: {.callout-tip}
 **Learning Outcomes**
 
 At the end of this practical students should be able to:
 
-* use Microsoft Word for writing equations
-
-* use Excel and R to calculate simple summary statistics
-
-* Understand the link between R and R Markdown
-
-* Produce your own knitted Markdown document
-</div>
+- use Microsoft Word for writing equations
+- use Excel and R to calculate simple summary statistics
+- Understand the link between R and R Markdown
+- Produce your own knitted Markdown document
+:::
 
 ## Before you begin
 Make sure you have access to:
 
-  + Microsoft Word and Excel
-  
-  + R and RStudio
-  
-  + The dataset for today: Lead_content.csv (download from lab page)
+- Microsoft Word and Excel
+- R and RStudio
+- The dataset for today: Lead_content.csv (download from lab page)
 
 ## Settling in
 
