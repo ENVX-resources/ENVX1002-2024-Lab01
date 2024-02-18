@@ -14,9 +14,9 @@ date-format: "[Semester 1,] YYYY"
 At the end of this practical students should be able to:
 
 - use Microsoft Word for writing equations
-- use Excel and R to calculate simple summary statistics
-- Understand the link between R and R Markdown
-- Produce your own knitted Markdown document
+- use Excel and RStudio to calculate simple summary statistics
+- Understand the link between R and RStudio
+- Produce your own rendered Quarto document
 :::
 
 ## Before you begin
@@ -25,6 +25,7 @@ Make sure you have access to:
 - Microsoft Word and Excel
 - R and RStudio
 - The data set for today: Lead_content.csv (use link below if you are viewing the file from GitHub or download from canvas)
+- R Code file
 
 [download data file](./data/Lead_content.csv)
 
@@ -146,7 +147,6 @@ Once the function has been selected, you can proceed to type the opening bracket
 
 ![Screenshot of Excel showing required input arguments for COUNT function](images/Excel_demo_COUNT_args.jpg)
 
-<br>
 
 ## Simple summary statistics in Excel
 
@@ -171,8 +171,6 @@ Some of examples of the functions that can be accessed in Excel are shown below.
 |population variance|=VAR.P()| 
 |Sample variance|=VAR( ) or =VAR.S()|
 |Population standard deviation|=STDEV.P()|
-
-<br>
 
 ## Calculating simple summary statistics in Excel
 
@@ -217,16 +215,14 @@ Make sure you have installed both - it is best to have the latest version of R a
 
 ## R basics
 
-To begin with we are going to open R ("The Engine") from the program files menu on your computer.
-
-When you open R, a window containing the R console will open.  It will look slightly different depending on the operating system you use.  The screenshot is from a Mac.
+- To begin with we are going to open R ("The Engine") from the program files menu on your computer.
+- When you open R, a window containing the R console will open.  It will look slightly different depending on the operating system you use.  The screenshot is from a Mac.
 
 ![The R Console](images/R_console.png)
 
-At the bottom of the screen is the command prompt >.
+- At the bottom of the screen is the command prompt >.
 Commands are typed at the command prompt and followed by the **ENTER** key. 
-
-From now type all the command you see into R.
+- From now type all the command you see into R.
 If you type in an expression, when you hit the **ENTER** key, the expression will be evaluated and the result returned, for example, lets add 5 and 5 together.
 
 ```{r}
@@ -281,7 +277,6 @@ myData3 <-
 
 - To cancel a command at the continuation prompt (or during execution of a command), press the **ESC** key.
 - The up and down arrow keys can be used to scroll through previous commands.
-
 - Comments can be indicated by a hash mark (#) - everything on the line following the hash mark will be ignored by R.  This can be after R code on a line or on a separate line as shown below.
 
 ```{r}
@@ -403,14 +398,16 @@ summary(Carbon)
 
 ## Projects
 
-Your tutors will assist you to get your files organised: 
+Having all your files organised into a logical folder structure will be super beneficial in this course and also your day-to-day life. Also Super important is that you back up your work in the cloud. You can do this using One Drive which you can access as through your university account, you can also use your own cloud storage (Dropbox, iCloud,...) and or you can use your GitHub account. 
 
-- Set up a course folder called ENVX1002 on your desktop/network drive/USB.
-- Set up a project called Lab_1 in your ENVX1002 folder.
+Your tutors can assist you to get your files organised. The following is my recommendation: 
 
-1. Create a folder called ENVX1002 on your laptop or the class computer. If you are using a class computer you will need to save the file to a usb, upload to cloud or email to yourself at the end of the class.
+- Set up a course folder called ENVX1002 on your desktop/network drive/USB/cloud storage.
+- Set up a project folder called Lab_1 in your ENVX1002 folder.
 
-2. Open R Studio go to the file dropdown menu and select New Project
+1. Create a folder called ENVX1002 on your laptop or the class desktop (prefereably in a folder backed up to the cloud. If you are using a class computer you will need to save the file to upload to your cloud storage or USB/External Hard Drive or zip the folder and email to yourself at the end of the class.
+
+2. Open R Studio go to the file drop down menu and select New Project
 
 ![New project](images/File_dropdwn.jpg)
 
@@ -420,22 +417,22 @@ Your tutors will assist you to get your files organised:
 
 <br>
 
-4. Enter on the directory name, for example Lab_1, and click on Create Project.
+4. Enter on the directory name, for example `Lab_1`, and click on Create Project.
 
 5. Well done! you have now set up a project.
 
 ![New project name](images/prj_result.jpg)
-
+6. You should now see a folder called Lab_1 in your ENVX1002 folder. If you open that folder you will see a file called `Lab_1.Rproj`. This is your project file and it will open RStudio with the working directory set to the Lab_1 folder.
 
 ## Coding in Quarto
 
 Your tutor will assist you to open a Quarto (.qmd) file. You will do this for each Lab and your also for your reports:
 
-* Open a qmd file, and save it as, for example, Prac1.qmd.
-* Run the file using knit.
-* View Prac1.html in a browser.
-* Now experiment with editing the file (both text and code chunks) and then re-run using knit.
-* Use this file to store your summary of today’s lab work.
+- Open a qmd file, and save it as, for example, Prac1.qmd.
+- Run the file using render.
+- View filename.html in a browser.
+- Now experiment with editing the file (both text and code chunks) and then re-run using render.
+- Use this file to store your summary of today’s lab work.
 
 The screenshots will help you do this.
 
