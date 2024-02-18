@@ -443,13 +443,14 @@ The screenshots will help you do this.
 
 2. Enter in an appropriate name for your file such as ENVX1002_lab_1 and enter in your name. Select HTML format.
 
-![New Quarto](images/QuartoDoc.png)
+![New Quarto](images/QuartoDoc.jpg)
 
 3. Well done! you have created a new Quarto file. First save your file by navigating to the File menu i.e. **File > Save as**. Name your file ENVX1002_lab_1.qmd it should automatically save in your Project folder.
 
 4. Finally you can **render** the file by selecting render located - see if you can spot it...
 
-![Render Quarto](images/Quartorender.png)
+![Render Quarto](images/Quartorender.jpg)
+
 5. Go to your project folder and open the HTML file by double clicking on it, it will open in your default browser.
 
 ## Summing up
