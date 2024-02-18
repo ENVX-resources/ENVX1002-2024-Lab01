@@ -24,10 +24,11 @@ Make sure you have access to:
 
 - Microsoft Word and Excel
 - R and RStudio
-- The data set for today: Lead_content.csv (use link below if you are viewing the file from GitHub or download from canvas)
-- R Code file
+- The data set and code file for this computer lab:
 
-[download data file](./data/Lead_content.csv)
+  - Github: [download Lead_content.csv file](./data/Lead_content.csv)
+  - Canvas: [download Lead_content.csv file](https://canvas.sydney.edu.au/courses/55713/pages/week-1-computer-lab-introduction-and-the-scientific-method?module_item_id=2156201)
+  - Canvas: [download Code_Topic1.R file](https://canvas.sydney.edu.au/courses/55713/pages/week-1-computer-lab-introduction-and-the-scientific-method?module_item_id=2156201)
 
 ## Settling in
 
@@ -174,9 +175,7 @@ Some of examples of the functions that can be accessed in Excel are shown below.
 
 ## Calculating simple summary statistics in Excel
 
-In this exercise you will use the **Lead_content.csv**
-
-[Download Data File](./data/Lead_content.csv)
+In this exercise you will use the **Lead_content.csv** See start of lesson for link to download the file.
 
 This data was collected from a recreational parkland in Sydney and is a measurement of the lead concentration (mg/kg) detected in the soil, measured through chemical analysis (ICP-OES). There are a total of 60 samples collected from around the park. The park was originally a municipal landfill but remediated in 1990, so we expected to find low levels of lead. The guide value set by the Australian Government is 300 mg/kg and this is where further investigation is needed (potential to cause harm). 
 
@@ -326,9 +325,9 @@ myresult <- myresult/2
 
 ## Simple data analysis in RStudio
 
-- Download and open the file **Code_Topic1.r** from canvas or if you are accessing HTML on GitHub use this link [r code](./code/Code_Topic1.R) and you will see most of the commands you have been typing.  Rather than typing commands into R we will now start to use RStudio.  
-- You send code from your open R text file which the top left hand pane of to the R console which is found in the bottom left hand pane.  The output, e.g. the mean, will also appear in the bottom left hand window.   
-- To send a line of code to R from your R file (the **Code_Topic1.r** file), click anywhere in the line and click on the Run icon or use the short cut **CTRL+ENTER** (Windows) or **COMMAND+ENTER** (Mac) or click on Run to run all code at once.  The output is shown in the bottom left hand window.  
+- Download and open the file **Code_Topic1.r** see link at start of lesson. Once open using the File > Open menu items in RStudio, you will see most of the commands you have been typing in the code editor.  Rather than typing commands directly into into R we will now start to use RStudio code editor.  
+- You send code from your open R code file which the top left hand pane of to the R console which is found in the bottom left hand pane.  The output, e.g. the mean, will also appear in the bottom left hand window.   
+- To send a line of code to R from your R file (the **Code_Topic1.R** file), click anywhere in the line and click on the Run icon or use the short cut **CTRL+ENTER** (Windows) or **COMMAND+ENTER** (Mac) or click on Run to run all code at once.  The output is shown in the bottom left hand window.  
 - You can also use the # symbol to write comments which R will ignore.  It is really important to comment throughout your code to help you and others who may use it to understand what the code does. It is recommended you copy the output into your R file and comment it out using # so you have a complete record of your work.
 
 ## Getting data into RStudio
