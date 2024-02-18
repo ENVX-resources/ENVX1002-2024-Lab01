@@ -444,9 +444,7 @@ The screenshots will help you do this.
 
 3. Well done! you have created a new Quarto file. First save your file by navigating to the File menu i.e. **File > Save as**. Name your file ENVX1002_lab_1.qmd it should automatically save in your Project folder.
 
-4. Finally you can **render** the file by selecting render located - see if you can spot it...
-
-![Render Quarto](images/Quartorender.jpg)
+4. Finally you can **Render** the file by selecting the render button - see if you can spot it - it's a blue block arrow pointing to the right above the text editor.
 
 5. Go to your project folder and open the HTML file by double clicking on it, it will open in your default browser.
 
@@ -458,9 +456,10 @@ You now know how to:
 - write equations in a word document
 - do basic operations in Excel
 - do basic operations in R and RStudio and 
+- consider how to manage files and folders and
 - set up a project as well as generate an Quarto Document
 
 To do by next week:
 
 - complete anything you have missed from today's lab
-- the [O-quiz](https://canvas.sydney.edu.au/courses/31705/quizzes/129645) (Available from March 1st)
+- complete the practice [O-quiz](https://canvas.sydney.edu.au/courses/55713/quizzes/249580) - this is to help you get familiar with Canvas quizzes. 
