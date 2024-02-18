@@ -331,7 +331,7 @@ myresult <- myresult/2
 
 ## Simple data analysis in RStudio
 
-- Download and open the file **Code_Topic1.r** from canvas or if you are accessing HTML on GitHub use this link [r code](./Code_Topic1.r) and you will see most of the commands you have been typing.  Rather than typing commands into R we will now start to use RStudio.  
+- Download and open the file **Code_Topic1.r** from canvas or if you are accessing HTML on GitHub use this link [r code](./code/Code_Topic1.R) and you will see most of the commands you have been typing.  Rather than typing commands into R we will now start to use RStudio.  
 - You send code from your open R text file which the top left hand pane of to the R console which is found in the bottom left hand pane.  The output, e.g. the mean, will also appear in the bottom left hand window.   
 - To send a line of code to R from your R file (the **Code_Topic1.r** file), click anywhere in the line and click on the Run icon or use the short cut **CTRL+ENTER** (Windows) or **COMMAND+ENTER** (Mac) or click on Run to run all code at once.  The output is shown in the bottom left hand window.  
 - You can also use the # symbol to write comments which R will ignore.  It is really important to comment throughout your code to help you and others who may use it to understand what the code does. It is recommended you copy the output into your R file and comment it out using # so you have a complete record of your work.
